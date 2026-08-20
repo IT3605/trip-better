@@ -69,11 +69,16 @@ export const Header: React.FC<HeaderProps> = ({
             <Menu className="w-5 h-5" />
           </button>
 
-          <a href="/" className="flex items-center gap-1 group">
+          <button
+            onClick={() => {
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="flex items-center gap-1 group text-left cursor-pointer"
+          >
             <span className="text-2xl sm:text-[28px] font-extrabold tracking-tight text-[#287DFA]">
               Trip<span className="text-[#0F294D]">.com</span>
             </span>
-          </a>
+          </button>
         </div>
 
         {/* Center: Global Search Bar */}
@@ -114,16 +119,13 @@ export const Header: React.FC<HeaderProps> = ({
           </button>
 
           {/* List Property */}
-          <a
-            href="#list-property"
-            onClick={(e) => {
-              e.preventDefault();
-              alert('Redirecting to Trip.com Partner & Property Host Portal.');
-            }}
-            className="hidden xl:inline-block px-2.5 py-1.5 rounded-lg hover:bg-slate-100 text-slate-700 transition-colors"
+          <button
+            id="header-list-property-btn"
+            onClick={onOpenSupport}
+            className="hidden xl:inline-block px-2.5 py-1.5 rounded-lg hover:bg-slate-100 text-slate-700 transition-colors cursor-pointer"
           >
             List your property
-          </a>
+          </button>
 
           {/* Currency / Language */}
           <div className="relative">

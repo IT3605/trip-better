@@ -10,44 +10,44 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="font-bold text-slate-900 mb-3 text-sm">About Trip.com</h4>
             <ul className="space-y-2 text-slate-500">
-              <li><a href="#about" className="hover:text-[#287DFA]">About Us</a></li>
-              <li><a href="#news" className="hover:text-[#287DFA]">Newsroom</a></li>
-              <li><a href="#careers" className="hover:text-[#287DFA]">Careers</a></li>
-              <li><a href="#investor" className="hover:text-[#287DFA]">Investor Relations</a></li>
-              <li><a href="#sustainability" className="hover:text-[#287DFA]">Trip.com Sustainability</a></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">About Us</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Newsroom</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Careers</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Investor Relations</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Trip.com Sustainability</button></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold text-slate-900 mb-3 text-sm">Services</h4>
             <ul className="space-y-2 text-slate-500">
-              <li><a href="#rewards" className="hover:text-[#287DFA]">Trip Coins Rewards</a></li>
-              <li><a href="#affiliate" className="hover:text-[#287DFA]">Affiliate Program</a></li>
-              <li><a href="#partner" className="hover:text-[#287DFA]">List Your Property</a></li>
-              <li><a href="#agents" className="hover:text-[#287DFA]">Travel Agent Portal</a></li>
-              <li><a href="#trip-planner" className="hover:text-[#287DFA]">Trip.Planner AI</a></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Trip Coins Rewards</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Affiliate Program</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">List Your Property</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Travel Agent Portal</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Trip.Planner AI</button></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold text-slate-900 mb-3 text-sm">Help & Support</h4>
             <ul className="space-y-2 text-slate-500">
-              <li><a href="#faq" className="hover:text-[#287DFA]">Customer Support & FAQs</a></li>
-              <li><a href="#guarantee" className="hover:text-[#287DFA]">Service Guarantee</a></li>
-              <li><a href="#feedback" className="hover:text-[#287DFA]">Website Feedback</a></li>
-              <li><a href="#security" className="hover:text-[#287DFA]">Security Center</a></li>
-              <li><a href="#terms" className="hover:text-[#287DFA]">Terms & Conditions</a></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Customer Support & FAQs</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Service Guarantee</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Website Feedback</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Security Center</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Terms & Conditions</button></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold text-slate-900 mb-3 text-sm">Popular Bookings</h4>
             <ul className="space-y-2 text-slate-500">
-              <li><a href="#tokyo-hotels" className="hover:text-[#287DFA]">Tokyo Hotels</a></li>
-              <li><a href="#paris-flights" className="hover:text-[#287DFA]">Flights to Paris</a></li>
-              <li><a href="#shinkansen" className="hover:text-[#287DFA]">Japan Bullet Trains</a></li>
-              <li><a href="#eurostar" className="hover:text-[#287DFA]">Eurostar London - Paris</a></li>
-              <li><a href="#disneyland" className="hover:text-[#287DFA]">Theme Park Tickets</a></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Tokyo Hotels</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Flights to Paris</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Japan Bullet Trains</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Eurostar London - Paris</button></li>
+              <li><button onClick={(e) => e.preventDefault()} className="hover:text-[#287DFA] text-left">Theme Park Tickets</button></li>
             </ul>
           </div>
 

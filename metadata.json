@@ -1,0 +1,6 @@
+{
+  "name": "Trip.com Travel Booking Portal",
+  "description": "Pixel-perfect interactive replica of the Trip.com home page with multi-category travel booking (Hotels, Flights, Trains, Cars, Tours), deals, and TripGenie travel assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
